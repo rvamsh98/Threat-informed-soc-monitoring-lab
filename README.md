@@ -92,7 +92,6 @@ Complete technical documentation with architecture, methodology, detection engin
 - [ ] Integrate SOAR for automated response
 - [ ] Add threat intelligence feeds (STIX/TAXII)
 - [ ] Implement behavioral analytics for anomaly detection
-- [ ] Expand to cloud security monitoring (AWS/Azure)
 
 ## 📬 Contact
 **Vamshi Ramavath**  
@@ -100,9 +99,7 @@ Complete technical documentation with architecture, methodology, detection engin
 🔗 [LinkedIn](https://www.linkedin.com/in/vamshiramavath/)  
 🌐 [Portfolio](https://rvamsh98.github.io/vamshi.github.io/)
 
----
-*This project was completed as part of my Master's in Cybersecurity & Networks at University of New Haven.*
-```
+
 
 ### 2. **Detection Rules** (Shows Technical Depth)
 
