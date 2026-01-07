@@ -38,7 +38,6 @@ Enterprise-style Security Operations Center (SOC) environment built to practice 
 | T1071 - Application Layer Protocol | Command & Control | HTTP traffic analysis |
 | T1021 - Remote Services (RDP) | Lateral Movement | Port 3389 monitoring |
 
-[Link to full detection matrix →](detection-rules/rules-explanation.md)
 
 ## 🔍 Sample Detection Rules
 
