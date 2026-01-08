@@ -91,23 +91,3 @@ Complete technical documentation with architecture, methodology, detection engin
 🌐 [Portfolio](https://rvamsh98.github.io/vamshi.github.io/)
 
 
-
-### 2. **Detection Rules** (Shows Technical Depth)
-
-**`detection-rules/snort-rules/custom-snort-rules.rules`:**
-```
-# MITRE ATT&CK T1046 - Network Service Discovery
-alert tcp any any -> $HOME_NET any (msg:"MITRE ATT&CK T1046 - Port Scan Detected"; 
-flags:S; threshold:type threshold, track by_src, count 10, seconds 5; 
-classtype:attempted-recon; sid:1000001; rev:1;)
-
-# MITRE ATT&CK T1110 - Brute Force (SSH)
-alert tcp any any -> $HOME_NET 22 (msg:"MITRE ATT&CK T1110 - SSH Brute Force Attempt"; 
-threshold:type threshold, track by_src, count 5, seconds 60; 
-classtype:attempted-admin; sid:1000002; rev:1;)
-
-# MITRE ATT&CK T1021 - Remote Services (RDP)
-alert tcp any any -> $HOME_NET 3389 (msg:"MITRE ATT&CK T1021 - RDP Connection Attempt"; 
-flags:S; classtype:attempted-admin; sid:1000003; rev:1;)
-
-# Add your other 23 rules...
