@@ -1,6 +1,6 @@
 # Threat-informed-soc-monitoring-lab
-Threat-Informed SOC monitoring lab using Splunk, Snort, and Sysmon to detect, correlate, and investigate attacks mapped to MITRE ATT&amp;CK &amp; D3FEND.
-# Threat-Informed SOC Monitoring Lab
+Enterprise-style SOC lab using Splunk, Snort, and Sysmon to detect, correlate,
+and investigate attacks mapped to MITRE ATT&CK & D3FEND.
 
 ## 🎯 Project Overview
 Enterprise-style Security Operations Center (SOC) environment built to practice real-world threat detection, alert triage, and incident response. Ingested 10,000+ security events from Snort IDS and Sysmon, achieving 85% true positive detection rate with 40% false positive reduction through systematic alert tuning.
@@ -31,12 +31,13 @@ Enterprise-style Security Operations Center (SOC) environment built to practice 
 
 ## 📊 Detection Coverage
 
-| MITRE ATT&CK Technique | Tactic | Detection Method |
-|------------------------|--------|------------------|
-| T1046 - Network Service Discovery | Reconnaissance | Snort IDS + Custom Rules |
-| T1110 - Brute Force | Credential Access | Correlation Search (10+ attempts) |
-| T1071 - Application Layer Protocol | Command & Control | HTTP traffic analysis |
-| T1021 - Remote Services (RDP) | Lateral Movement | Port 3389 monitoring |
+| Technique | Tactic            | Detection Method      | Log Source     |
+| --------- | ----------------- | --------------------- | -------------- |
+| T1046     | Reconnaissance    | Snort custom rules    | Snort IDS      |
+| T1110     | Credential Access | Correlation search    | Snort + Sysmon |
+| T1071     | C2                | HTTP traffic analysis | Snort          |
+| T1021     | Lateral Movement  | Port monitoring       | Sysmon         |
+
 
 
 ## 🔍 Sample Detection Rules
@@ -57,14 +58,6 @@ index=snort sourcetype="snort:alert"
 | sort -attempts
 ```
 
-## 📸 Dashboard Screenshots
-
-### Threat Intelligence Dashboard
-![MITRE ATT&CK Dashboard](documentation/dashboard-screenshots/mitre-attack-dashboard.png)
-
-### Correlation Dashboard
-![Correlation Dashboard](documentation/dashboard-screenshots/correlation-dashboard.png)
-
 ## 🧪 Attack Simulation & Validation
 
 Validated detections through controlled attack scenarios:
@@ -73,7 +66,6 @@ Validated detections through controlled attack scenarios:
 - ✅ RDP connection attempts → Detected as T1021
 - ✅ Suspicious network traffic → Correlated across sources
 
-[See attack validation results →](attack-scenarios/validation-results.md)
 
 ## 📚 Full Documentation
 Complete technical documentation with architecture, methodology, detection engineering process, and lessons learned: [Project_Documentation.pdf](documentation/Project_Documentation.pdf)
