@@ -68,7 +68,7 @@ Validated detections through controlled attack scenarios:
 
 
 ## 📚 Full Documentation
-Complete technical documentation with architecture, methodology, detection engineering process, and lessons learned:documentation/Threat project .pdf
+Complete technical documentation with architecture, methodology, detection engineering process, and lessons learned: https://github.com/rvamsh98/threat-informed-soc-monitoring-lab/blob/738433661760c8c1730be4f47df271878048c155/documentation/Threat%20project%20.pdf
 
 ## 🎓 Skills Demonstrated
 - Security monitoring and alert triage
