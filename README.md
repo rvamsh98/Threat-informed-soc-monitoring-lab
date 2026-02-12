@@ -14,7 +14,20 @@ Enterprise-style Security Operations Center (SOC) environment built to practice 
 - **Infrastructure:** VMware Workstation (3-tier architecture)
 
 ## 🏗️ Architecture
-<img width="553" height="635" alt="Screenshot 2025-12-25 190250" src="https://github.com/user-attachments/assets/caa5cdb3-5dd8-4792-b9e6-a8e9d29e5267" />
+![Architecture](documentation/Architecture.png)
+
+---
+
+## 🔎 Detection Labs
+
+Hands-on SOC detection engineering case studies:
+
+➡️ View Labs: labs/README.md
+
+Featured Labs:
+- SSH Brute Force Detection & Correlation (MITRE T1110)
+- Network Scan Detection (Nmap / MITRE T1046)
+
 
 
 **Components:**
