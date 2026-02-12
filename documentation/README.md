@@ -29,7 +29,7 @@ Includes:
 
 Detailed written report covering methodology and results:
 
-➡️ [Threat Project PDF](Threat project.pdf)
+[Threat Project PDF](Threat%20project.pdf)
 
 ---
 
