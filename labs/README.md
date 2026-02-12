@@ -7,7 +7,7 @@ SOC detection engineering labs documented as case studies.
 ### 🔹 SSH Brute Force Detection & Correlation
 Detection of sustained SSH brute-force activity using Snort IDS correlated in Splunk and mapped to MITRE ATT&CK and D3FEND.
 
-➡️ [View Lab](ssh-bruteforce.md)
+ ➡️ [View Lab](ssh-bruteforce.md)
 
 ---
 
@@ -15,3 +15,4 @@ Detection of sustained SSH brute-force activity using Snort IDS correlated in Sp
 Detection of network reconnaissance using Sysmon Event ID 3 and Splunk.
 
 ➡️ [View Lab](nmap-network-scan.md)
+
