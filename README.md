@@ -22,7 +22,9 @@ Enterprise-style Security Operations Center (SOC) environment built to practice 
 
 Hands-on SOC detection engineering case studies:
 
-➡️ View Labs: labs/README.md
+➡️ [View Lab](nmap-network-scan.md)
+➡️ [View Lab](ssh-bruteforce.md)
+
 
 Featured Labs:
 - SSH Brute Force Detection & Correlation (MITRE T1110)
