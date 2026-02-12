@@ -15,6 +15,3 @@ Detection of sustained SSH brute-force activity using Snort IDS correlated in Sp
 Detection of network reconnaissance using Sysmon Event ID 3 and Splunk.
 
 ➡️ [View Lab](nmap-network-scan.md)
-# Labs
-
-SOC detection labs documented as case studies.
